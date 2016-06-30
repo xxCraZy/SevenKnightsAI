@@ -1,0 +1,223 @@
+using System;
+
+namespace SevenKnightsAI.Classes.Mappings
+{
+    // Token: 0x02000057 RID: 87
+    internal static class ShopPM
+    {
+        // Token: 0x0400029C RID: 668
+        public static readonly PixelMapping CharacterShirt = new PixelMapping
+        {
+            X = 116,
+            Y = 335,
+            Color = 3019527,
+            Type = MappingType.ANCHOR
+        };
+
+        // Token: 0x0400029E RID: 670
+        public static readonly PixelMapping ContentsShopButton = new PixelMapping
+        {
+            X = 80,
+            Y = 512,
+            Color = 0,
+            Type = MappingType.BUTTON
+        };
+
+        // Token: 0x0400029D RID: 669
+        public static readonly PixelMapping ContentsShopIcon = new PixelMapping
+        {
+            X = 58,
+            Y = 509,
+            Color = 15048536,
+            Type = MappingType.ANCHOR
+        };
+
+        // Token: 0x040002A6 RID: 678 ( New xxx )
+        public static readonly PixelMapping KeyTab = new PixelMapping
+        {
+            X = 75,
+            Y = 87,
+            Color = 0,
+            Type = MappingType.BUTTON
+        };
+
+        // Token: 0x040002A5 RID: 677
+        public static readonly PixelMapping RubTab = new PixelMapping
+        {
+            X = 82,
+            Y = 158,
+            Color = 0,
+            Type = MappingType.BUTTON
+        };       
+
+        // Token: 0x040002A1 RID: 673 ( Topaz )
+        public static readonly PixelMapping GoldTab = new PixelMapping
+        {
+            X = 87,
+            Y = 224,
+            Color = 0,
+            Type = MappingType.BUTTON
+        };
+      
+        // Token: 0x040002A2 RID: 674 ( Misc )
+        public static readonly PixelMapping TopazioTab = new PixelMapping
+        {
+            X = 86,
+            Y = 308,
+            Color = 0,
+            Type = MappingType.BUTTON
+        };
+
+        // Token: 0x040002AC RID: 684
+        public static readonly PixelMapping Key10Honor100 = new PixelMapping
+        {
+            X = 780,
+            Y = 380,
+            Color = 0,
+            Type = MappingType.BUTTON
+        };
+
+        // Token: 0x040002AD RID: 685
+        public static readonly PixelMapping Key10Ruby20 = new PixelMapping
+        {
+            X = 390,
+            Y = 380,
+            Color = 0,
+            Type = MappingType.BUTTON
+        };
+
+        // Token: 0x040002AA RID: 682
+        public static readonly PixelMapping Key1Honor10 = new PixelMapping
+        {
+            X = 326,
+            Y = 380,
+            Color = 0,
+            Type = MappingType.BUTTON
+        };
+
+        // Token: 0x040002AE RID: 686
+        public static readonly PixelMapping Key20Ruby35 = new PixelMapping
+        {
+            X = 620,
+            Y = 380,
+            Color = 0,
+            Type = MappingType.BUTTON
+        };
+
+        // Token: 0x040002AF RID: 687
+        public static readonly PixelMapping Key40Ruby45 = new PixelMapping
+        {
+            X = 845,
+            Y = 380,
+            Color = 0,
+            Type = MappingType.BUTTON
+        };
+
+        // Token: 0x040002AB RID: 683
+        public static readonly PixelMapping Key5Ruby10 = new PixelMapping
+        {
+            X = 550,
+            Y = 380,
+            Color = 0,
+            Type = MappingType.BUTTON
+        };
+
+        public static readonly PixelMapping Key100Ruby100 = new PixelMapping
+        {
+            X = 854,
+            Y = 326,
+            Color = 0,
+            Type = MappingType.BUTTON
+        };
+
+        // Token: 0x040002A4 RID: 676 OK
+        public static readonly PixelMapping MiscTab = new PixelMapping
+        {
+            X = 94,
+            Y = 376,
+            Color = 0,
+            Type = MappingType.BUTTON
+        };
+
+        // Token: 0x040002A8 RID: 680 xxxxx
+        public static readonly PixelMapping KeyTabLeftMost = new PixelMapping
+        {
+            X = 31,
+            Y = 57,
+            Color = 15584911,
+            Type = MappingType.ANCHOR
+        };
+
+        // Token: 0x040002A9 RID: 681 xxxxxx
+        public static readonly PixelMapping KeyTabRightMost = new PixelMapping
+        {
+            X = 179,
+            Y = 58,
+            Color = 12946730,
+            Type = MappingType.ANCHOR
+        };
+
+        // Token: 0x040002A7 RID: 679
+        public static readonly PixelMapping KeyTabSelected = new PixelMapping
+        {
+            X = 88,
+            Y = 86,
+            Color = 12219396,
+            Type = MappingType.ANCHOR
+        };
+       
+        // Token: 0x040002A3 RID: 675
+        public static readonly PixelMapping CasteRushTab = new PixelMapping
+        {
+            X = 234,
+            Y = 387,
+            Color = 0,
+            Type = MappingType.BUTTON
+        };
+     
+        // Token: 0x0400029F RID: 671
+        public static readonly PixelMapping ScrollAreaLeft = new PixelMapping
+        {
+            X = 200,
+            Y = 360,
+            Color = 0,
+            Type = MappingType.BUTTON
+        };
+
+        // Token: 0x040002A0 RID: 672
+        public static readonly PixelMapping ScrollAreaRight = new PixelMapping
+        {
+            X = 945,
+            Y = 360,
+            Color = 0,
+            Type = MappingType.BUTTON
+        };
+
+        // Token: 0x04000294 RID: 660
+        public static readonly int KEY_OFFSET_X = 153;
+
+        // Token: 0x04000295 RID: 661
+        public static readonly int KEY_OFFSET_Y = 0;
+
+        // Token: 0x04000296 RID: 662
+        public static readonly int GOLD_OFFSET_X = 155;
+
+        // Token: 0x04000297 RID: 663
+        public static readonly int GOLD_OFFSET_Y = 0;
+
+        // Token: 0x04000298 RID: 664
+        public static readonly int RUBY_OFFSET_X = 147;
+
+        // Token: 0x04000299 RID: 665
+        public static readonly int RUBY_OFFSET_Y = 0;
+
+        // Token: 0x0400029A RID: 666 (269)
+        public static readonly int HONOR_OFFSET_X = 158;
+
+        // Token: 0x0400029B RID: 667
+        public static readonly int HONOR_OFFSET_Y = 0;
+
+
+
+    }
+}
